@@ -1,8 +1,18 @@
 aid: awa-studios
 name: Awa Studios
-description: Awa Studios is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  AWA Studios (Artists, Writers & Artisans, Inc.) is a New York-based independent
+  multimedia entertainment company founded in 2018 by comics-industry veterans,
+  including former Marvel editor-in-chief Axel Alonso and former Marvel president
+  Bill Jemas, with media executive Jon Miller as board chairman. AWA publishes
+  original comic books and graphic novels across action, crime, horror, science
+  fiction, and fantasy genres, built around a creator-owned business model that
+  offers favorable terms to writers and artists. The company operates the "Upshot"
+  imprint and a shared "Resistance Universe," runs a direct-to-consumer shop for
+  print and digital titles, and develops film and television adaptations of its
+  properties. AWA received seed-stage funding from Lightspeed Venture Partners in
+  2018. It is a media and entertainment company and does not currently publish a
+  public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/awa-studios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,51 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-provider: false
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://awastudios.com/wp-content/uploads/2023/06/AWA-corporate-logo-e1709710866251.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Entertainment
+- Media
+- Comics
+- Publishing
+- Graphic Novels
+- Film and Television
 apis: []
+common:
+- type: Website
+  url: https://awastudios.com
+- type: Blog
+  url: https://awastudios.com/news
+- type: Support
+  url: https://awastudios.com/contact
+- type: TermsOfService
+  url: https://awastudios.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://awastudios.com/privacy-policy/
+- type: DomainSecurity
+  url: security/awa-studios-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
