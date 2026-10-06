@@ -46,7 +46,7 @@ accessModel:
 image: https://awastudios.com/wp-content/uploads/2023/06/AWA-corporate-logo-e1709710866251.jpg
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Entertainment
@@ -57,6 +57,10 @@ tags:
 - Film and Television
 apis: []
 common:
+- url: https://awastudios.com/news/
+  type: Blog
+- url: https://awastudios.com/news/feed/
+  type: BlogRSS
 - type: Website
   url: https://awastudios.com
 - type: Blog
